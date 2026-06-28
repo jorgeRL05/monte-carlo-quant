@@ -15,7 +15,7 @@ Cada peldaño del proyecto vive en un notebook Jupyter independiente. La nomencl
 
 | Peldaño | Notebook | Tema |
 |---------|----------|------|
-| 1 | `peldano_01_montecarlo_pi.ipynb` | Estimación de π, paseo aleatorio, TCL |
+| 1 | `peldano_01_montecarlo_puro.ipynb` | Estimación de π, paseo aleatorio, TCL |
 | 2 | `peldano_02_gbm.ipynb` | Movimiento Browniano Geométrico |
 | 3 | `peldano_03_opciones_bs.ipynb` | Opciones europeas: MC vs Black-Scholes |
 | 4 | `peldano_04_var.ipynb` | Valor en Riesgo por Monte Carlo |
