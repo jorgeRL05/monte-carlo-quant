@@ -1,6 +1,6 @@
 # Notebooks
 
-Cada peldaño del proyecto vive en un notebook Jupyter independiente. La nomenclatura es `peldano_NN_descripcion.ipynb`.
+Cada módulo del proyecto vive en un notebook Jupyter independiente. La nomenclatura es `modulo_NN_descripcion.ipynb`.
 
 ## Estructura de un notebook (plantilla)
 
@@ -13,10 +13,10 @@ Cada peldaño del proyecto vive en un notebook Jupyter independiente. La nomencl
 
 ## Índice
 
-| Peldaño | Notebook | Tema |
-|---------|----------|------|
-| 1 | `peldano_01_montecarlo_puro.ipynb` | Estimación de π, paseo aleatorio, TCL |
-| 2 | `peldano_02_gbm.ipynb` | Movimiento Browniano Geométrico |
-| 3 | `peldano_03_opciones_bs.ipynb` | Opciones europeas: MC vs Black-Scholes |
-| 4 | `peldano_04_var.ipynb` | Valor en Riesgo por Monte Carlo |
-| 5 | `peldano_05_ampliacion.ipynb` | Reducción de varianza, Griegas |
+| Módulo | Notebook | Tema |
+|--------|----------|------|
+| 1 | `modulo_01_montecarlo_puro.ipynb` | Estimación de π, paseo aleatorio, TCL |
+| 2 | `modulo_02_gbm.ipynb` | Movimiento Browniano Geométrico |
+| 3 | `modulo_03_opciones_bs.ipynb` | Opciones europeas: MC vs Black-Scholes |
+| 4 | `modulo_04_var.ipynb` | Valor en Riesgo por Monte Carlo |
+| 5 | `modulo_05_ampliacion.ipynb` | Reducción de varianza, Griegas |

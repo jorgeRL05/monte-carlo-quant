@@ -2,7 +2,7 @@
 
 Proyecto educativo en Python que implementa, paso a paso, **métodos de Monte Carlo aplicados a problemas reales de finanzas cuantitativas**: simulación de precios de activos, valoración de opciones por simulación frente a fórmula cerrada (Black-Scholes) y cálculo de medidas de riesgo (VaR).
 
-> El proyecto se construye **por peldaños**: cada peldaño es un hito autocontenido que se puede ejecutar y explicar de forma independiente.
+> El proyecto se construye **por módulos**: cada módulo es un hito autocontenido que se puede ejecutar y explicar de forma independiente.
 
 ---
 
@@ -51,7 +51,7 @@ En Linux / macOS, sustituir el paso 2 por `source venv/bin/activate`.
 
 ## Hoja de ruta
 
-| Peldaño | Tema | Estado |
+| Módulo | Tema | Estado |
 |---------|------|--------|
 | 0 | Setup del entorno (venv, Git, dependencias) | ✅ |
 | 1 | Monte Carlo puro: π, paseo aleatorio, Teorema Central del Límite | 🔜 |
