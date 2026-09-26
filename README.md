@@ -1,7 +1,7 @@
 # Métodos de Monte Carlo en Finanzas Cuantitativas
 
 [![CI](https://github.com/jorgeRL05/monte-carlo-quant/actions/workflows/ci.yml/badge.svg)](https://github.com/jorgeRL05/monte-carlo-quant/actions/workflows/ci.yml)
-[![Python](https://img.shields.io/badge/python-3.11%20%7C%203.12%20%7C%203.13-blue)](https://www.python.org/)
+[![Python](https://img.shields.io/badge/python-3.12%20%7C%203.13-blue)](https://www.python.org/)
 [![Ruff](https://img.shields.io/badge/lint-ruff-orange)](https://github.com/astral-sh/ruff)
 [![Checked with mypy](https://img.shields.io/badge/types-mypy-blue)](https://mypy-lang.org/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
@@ -49,7 +49,7 @@ monte-carlo-quant/
 
 ## Instalación
 
-Requisitos: **Python ≥ 3.11** y **Git**.
+Requisitos: **Python ≥ 3.12** y **Git**.
 
 ```bash
 git clone https://github.com/jorgeRL05/monte-carlo-quant.git
@@ -106,7 +106,7 @@ mypy src/mcquant       # type checking
 
 ## Stack
 
-`Python ≥ 3.11` · `numpy` · `scipy` · `pandas` · `matplotlib` · `yfinance` · `jupyter`
+`Python ≥ 3.12` · `numpy` · `scipy` · `pandas` · `matplotlib` · `yfinance` · `jupyter`
 Calidad: `pytest` · `ruff` · `mypy` · GitHub Actions
 
 ---
