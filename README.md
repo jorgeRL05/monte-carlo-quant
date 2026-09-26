@@ -24,6 +24,7 @@ Monte Carlo es uno de los pilares numéricos del *quant*: resolver problemas com
 - **GBM calibrado sobre SPY** (2015–2023): σ̂ ≈ 18 %. Se demuestra que el *drift* es prácticamente inestimable — `SE(μ̂) ∝ 1/√T` no mejora muestreando más a menudo —, lo que motiva la valoración neutral al riesgo.
 - **Monte Carlo reproduce Black-Scholes**: call ATM = **10.4506**, con el precio exacto dentro del intervalo de confianza del 95 % en todos los escenarios (call/put × ITM/ATM/OTM).
 - **Diagnóstico de normalidad** de rentabilidades reales: colas gruesas (curtosis en exceso ≈ 13.5) y rechazo de Jarque-Bera, delimitando dónde falla el GBM.
+- **VaR y Expected Shortfall** por tres métodos (paramétrico, histórico, Monte Carlo): el VaR normal subestima el riesgo de cola, y se demuestra que el VaR no es coherente (viola la subaditividad) mientras que el ES sí.
 
 ---
 
@@ -98,7 +99,7 @@ mypy src/mcquant       # type checking
 | 1 | Monte Carlo puro: π, paseo aleatorio, Teorema Central del Límite | ✅ |
 | 2 | Simulación de precios con Movimiento Browniano Geométrico | ✅ |
 | 3 | Valoración de opciones europeas (MC vs Black-Scholes) | ✅ |
-| 4 | Métrica de riesgo: Valor en Riesgo (VaR) por Monte Carlo | ⬜ |
+| 4 | Métrica de riesgo: Valor en Riesgo (VaR) por Monte Carlo | ✅ |
 | 5 | Ampliación: reducción de varianza, Griegas, redacción final | ⬜ |
 
 ---
