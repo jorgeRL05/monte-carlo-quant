@@ -100,7 +100,7 @@ mypy src/mcquant       # type checking
 | 2 | Simulación de precios con Movimiento Browniano Geométrico | ✅ |
 | 3 | Valoración de opciones europeas (MC vs Black-Scholes) | ✅ |
 | 4 | Métrica de riesgo: Valor en Riesgo (VaR) por Monte Carlo | ✅ |
-| 5 | Ampliación: reducción de varianza, Griegas, redacción final | ⬜ |
+| 5 | Reducción de varianza (antitéticas, control) y Griegas por Monte Carlo | ✅ |
 
 ---
 
@@ -114,3 +114,9 @@ Calidad: `pytest` · `ruff` · `mypy` · GitHub Actions
 ## Autor
 
 Jorge Rodríguez Lázaro — doble grado Ingeniería Informática + Matemáticas, URJC.
+
+---
+
+## Nota sobre el desarrollo
+
+Este proyecto se ha desarrollado con asistencia de inteligencia artificial.
