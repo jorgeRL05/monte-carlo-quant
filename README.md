@@ -101,6 +101,8 @@ mypy src/mcquant       # type checking
 | 3 | Valoración de opciones europeas (MC vs Black-Scholes) | ✅ |
 | 4 | Métrica de riesgo: Valor en Riesgo (VaR) por Monte Carlo | ✅ |
 | 5 | Reducción de varianza (antitéticas, control) y Griegas por Monte Carlo | ✅ |
+| 6 | Opciones americanas por Longstaff-Schwartz | ✅ |
+| 7 | La sonrisa de volatilidad (volatilidad implícita, modelo de saltos) | ✅ |
 
 ---
 
